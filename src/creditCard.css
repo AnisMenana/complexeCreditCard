@@ -1,0 +1,140 @@
+p,
+h1 {
+  margin: 0px;
+}
+
+.fond {
+  color: white;
+  background-image: url("./image/space.jpg");
+  height: 400px;
+  width: 700px;
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+h1 {
+  font-size: 80px;
+}
+.puce {
+  width: 80px;
+  height: 80px;
+}
+
+.SerialNumber {
+  background-color: rgba(34, 139, 34, 0.5);
+  width: 500px;
+  font-size: 55px;
+  text-align: center;
+  color: goldenrod;
+}
+.month {
+  font-size: 10px;
+}
+.day {
+  font-size: 30px;
+}
+.num {
+  font-size: 30px;
+}
+.cardholder {
+  font-size: 30px;
+}
+
+.visa {
+  width: 100px;
+  height: 120px;
+}
+.creditcard {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.pucecard {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+  justify-content: space-between;
+}
+.number {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 500px;
+}
+.mainleft {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  justify-content: space-around;
+}
+.mleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.mright {
+  display: flex;
+  flex-direction: column;
+}
+.mainright {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.cardholder1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.mright1 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.valid {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 13px;
+}
+
+form {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+input {
+  width: 30%;
+}
+
+input[type="text"] {
+  background: transparent;
+}
+
+.userserial1 {
+  font-size: 55px;
+  color: goldenrod;
+  width: 500px;
+}
+input::placeholder {
+  font-size: 20px;
+}
+
+.userdate1 {
+  font-size: 30px;
+  color: white;
+  width: 20px;
+}
+
+.username1 {
+  font-size: 30px;
+  color: white;
+}
